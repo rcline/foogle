@@ -1,0 +1,22 @@
+{
+  "short_response": {
+    "name": "Short Answer",
+    "value": 0
+  },
+  "long_response":  {
+    "name": "Long Answer",
+    "value": 1
+  },
+  "single_choice_radio": {
+    "name": "Radio",
+    "value":  2
+  },
+  "single_choice_select": {
+    "name": "Drop Down",
+    "value":  3
+  },
+  "multiple_choice": {
+    "name": "Multiple Choice",
+    "value":  4
+  }
+}

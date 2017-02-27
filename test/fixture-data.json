@@ -1,0 +1,261 @@
+{
+  "forms": [
+    {
+      "id": 0,
+      "name": "Personality survey",
+      "description": "A survey to categorize your personality.",
+      "questions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Animal survey",
+      "description": "A survey on animals.",
+      "questions": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Childhood board games",
+      "description": "A survey to capture childhood board game preferences.",
+      "questions": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": 0,
+      "prompt": "What is your favorite color?",
+      "type": 0
+    },
+    {
+      "id": 1,
+      "prompt": "Describe your favorite vacation.",
+      "type": 1
+    },
+    {
+      "id": 2,
+      "prompt": "Is the glass half empty or half full?",
+      "type": 2,
+      "options": [
+        "Half Empty",
+        "Half Full"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "What is your preferred method of transportation?",
+      "type": 3,
+      "options": [
+        "Walk",
+        "Bike",
+        "Car",
+        "Bus",
+        "Lightrail",
+        "Taxi"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "What type of pork do you like?",
+      "type": 4,
+      "options": [
+        "Ham",
+        "Bacon",
+        "Sausage",
+        "Ribs",
+        "Pork Belly",
+        "Pork Chop",
+        "Sirloin",
+        "Loin"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "What is your favorite animal?",
+      "type": 0
+    },
+    {
+      "id": 6,
+      "prompt": "Describe your first encounter with this animal.",
+      "type": 1
+    },
+    {
+      "id": 7,
+      "prompt": "Is this a sea, land, or sky animal?",
+      "type": 2,
+      "options": [
+        "Sea",
+        "Land",
+        "Sky"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "How many legs does this animal have?",
+      "type": 3,
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "More than four"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "Which animals do you like as pets?",
+      "type": 4,
+      "options": [
+        "Dog",
+        "Cat",
+        "Fish",
+        "Bird",
+        "Ferret"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "What was/is your favorite childhood board game?",
+      "type": 0
+    },
+    {
+      "id": 11,
+      "prompt": "Describe how a typical game would go.",
+      "type": 1
+    },
+    {
+      "id": 12,
+      "prompt": "Do you prefer Monopoly or Hungry Hungry Hippos?",
+      "type": 2,
+      "options": [
+        "Monopoly",
+        "Hungry Hungry Hippos"
+      ]
+    },
+    {
+      "id": 13,
+      "prompt": "What is your preferred method of transportation?",
+      "type": 3,
+      "options": [
+        "Strategy",
+        "Social",
+        "Card",
+        "Word",
+        "Dice",
+        "Co-op"
+      ]
+    },
+    {
+      "id": 14,
+      "prompt": "Which games did/do you play often?",
+      "type": 4,
+      "options": [
+        "Chess",
+        "Checkers",
+        "Monopoly",
+        "Scrabble",
+        "Risk",
+        "Clue",
+        "Chutes and Ladders",
+        "Hungry Hungry Hippos"
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "id": 0,
+      "formId": 0,
+      "questions": [
+        {
+          "questionId": 0,
+          "value": "Green"
+        },
+        {
+          "questionId": 1,
+          "value": "My favorite summer vacation was when my Father took me to Universal Studios in Orlando, Florida. It was one of the most memorable experiences of my life. What made it even more memorable was the fact that it was my very first time on an airplane. I cannot recall another time in my life when I experienced so much joy."
+        },
+        {
+          "questionId": 2,
+          "value": "Half Full"
+        },
+        {
+          "questionId": 3,
+          "value": "Car"
+        },
+        {
+          "questionId": 4,
+          "value": "Bacon,Ribs,Pork Chop"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "formId": 1,
+      "questions": [
+        {
+          "questionId": 5,
+          "value": "Dog"
+        },
+        {
+          "questionId": 6,
+          "value": "My first dog (and best friend) was Barkley, a sweet, playful cairn terrier that was already a few years old by the time I was born. I’m assuming one of my brothers is at fault for this weird logic, but I grew up viewing Barkley as my equal in the family. I would never pick him up, because I would think to myself, I can’t. Barkley is older than I am. We went on like that for 13 years."
+        },
+        {
+          "questionId": 7,
+          "value": "Land"
+        },
+        {
+          "questionId": 8,
+          "value": "Four"
+        },
+        {
+          "questionId": 9,
+          "value": "Dog"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "formId": 3,
+      "questions": [
+        {
+          "questionId": 10,
+          "value": "Monopoly"
+        },
+        {
+          "questionId": 11,
+          "value": "A 'typical' Monopoly game usually lasts SEVERAL hours... and this is because a typical Monopoly game is not usually played by the official rules. In most every Monopoly game I've seen, all sorts of 'house rules' are usually in effect, all of which almost always incorporate an extra amount of cash flow or 'income' into the game, thus making it much more difficult for players to bankrupt each other than it is supposed to be. For example, what Monopoly player hasn't heard of the 'Free Parking' rule, where one receives a cash reward for landing on the Free Parking space? The official rules, if you take the time to read them, spell it out clearly: FREE PARKING... 'A player landing on this space does not receive any money, property or reward of any kind. This is just a 'free' resting place.' Another house (or misinterpreted) rule is believing (incorrectly) that one receives $400.00 if one lands DIRECTLY on the GO square. Wrong again."
+        },
+        {
+          "questionId": 12,
+          "value": "Monopoly"
+        },
+        {
+          "questionId": 13,
+          "value": "Strategy"
+        },
+        {
+          "questionId": 14,
+          "value": "Chess,Checkers,Monopoly,Scrabble,Risk,Clue,Chutes and Ladders,Hungry Hungry Hippos"
+        }
+      ]
+    }
+  ]
+}
